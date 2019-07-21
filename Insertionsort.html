@@ -1,0 +1,22 @@
+<!-- Insertion Sort -->
+<!-- List of items [ 5, 3, 4, 2] -->
+<script>
+
+    var insertionSort = (items) => {
+
+        for(let i = 0; i < items.length; i++){ 
+            let key = items[i];
+            
+            let j
+            for(j = i - 1; j >= 0 && items[j] > key; j--){
+                items[j + 1] = items[j];
+            }
+            items[j + 1] = key;
+        }
+        return items;
+    };
+
+    let itemsTest = [ 5, 3, 4, 2];
+    console.log(insertionSort(itemsTest));
+
+</script>
