@@ -1,0 +1,17 @@
+    
+<!-- bubble Sort -->
+<!-- List of items [ 5, 4, 3, 8] -->
+<script>
+  var bubbleSort = (items) => {
+      for (let i = 0; i < items.length; i++) {
+        for (let j =  i + 1; j < items.length; j++) {
+          if (items[i] > items[j]) {
+            [items[i], items[j]] = [items[j], items[i]];
+          }
+        }
+      } 
+      return items;
+    }
+console.log(bubbleSort([ 5, 4, 3, 8]));
+
+</script>
