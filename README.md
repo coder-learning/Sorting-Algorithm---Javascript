@@ -10,3 +10,9 @@ The below describe the overview of selection sort.
 The below describe the overview of insertion sort.
 
 ![insertion sort](images/insertionsort.gif?raw=true "insertion sort")
+
+
+## Bubble Sort
+The below describe the overview of bubble sort.
+
+![bubble sort](images/bubblesort.gif?raw=true "Bubble sort")
